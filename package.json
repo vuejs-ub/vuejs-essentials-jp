@@ -1,18 +1,17 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "vuejs-essentials-jp",
+  "version": "1.0.0",
   "type": "module",
+  "description": "",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
   },
+  "keywords": [],
+  "author": "Ubugeeei <ubuge1122@gmail.com>",
   "devDependencies": {
-    "nuxt": "^3.9.3",
-    "sass": "^1.70.0",
-    "vue": "^3.4.14",
-    "vue-router": "^4.2.5"
+    "vitepress": "1.0.0-rc.40"
   }
 }
