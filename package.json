@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev src",
     "build": "vitepress build src",
-    "preview": "vitepress preview src"
+    "preview": "vitepress preview src",
+    "cms:dev": "cd cms && pnpm i && pnpm dev",
+    "cms:build": "cd cms && pnpm i && pnpm build",
+    "cms:preview": "cd cms && pnpm i && pnpm preview"
   },
   "keywords": [],
   "author": "Ubugeeei <ubuge1122@gmail.com>",
